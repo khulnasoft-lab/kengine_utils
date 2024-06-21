@@ -1,17 +1,19 @@
 module github.com/khulnasoft-lab/kengine_utils
 
-go 1.20
+go 1.21
+
+toolchain go1.22.4
 
 require (
 	github.com/XSAM/otelsql v0.27.0
 	github.com/cenkalti/backoff/v4 v4.2.1
 	github.com/go-chi/jwtauth/v5 v5.3.0
-	github.com/google/uuid v1.5.0
+	github.com/google/uuid v1.6.0
 	github.com/hibiken/asynq v0.24.1
 	github.com/jellydator/ttlcache/v3 v3.2.0
 	github.com/lestrrat-go/jwx/v2 v2.0.18
 	github.com/lib/pq v1.10.9
-	github.com/minio/minio-go/v7 v7.0.66
+	github.com/minio/minio-go/v7 v7.0.72
 	github.com/neo4j/neo4j-go-driver/v5 v5.17.0
 	github.com/raito-io/neo4j-tracing v0.0.4
 	github.com/redis/go-redis/v9 v9.4.0
@@ -34,7 +36,7 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.17.4 // indirect
+	github.com/klauspost/compress v1.17.6 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.6 // indirect
 	github.com/lestrrat-go/blackmagic v1.0.2 // indirect
 	github.com/lestrrat-go/httpcc v1.0.1 // indirect
